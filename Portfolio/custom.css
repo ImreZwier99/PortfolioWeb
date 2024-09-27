@@ -7,7 +7,7 @@ html, body {
 
 /* Achtergrond */
 body {
-    background-image: url('/Portfolio/img/Background.png'); 
+    background-image: url('Background.png'); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
@@ -62,7 +62,7 @@ section {
 /* About Sectie */
 #about {
     min-height: 400px; 
-    background-image: url('/Portfolio/img/Background.png'); 
+    background-image: url('Background.png'); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
