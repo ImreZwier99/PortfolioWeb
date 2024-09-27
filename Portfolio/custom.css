@@ -73,6 +73,12 @@ section {
     border-bottom: 2px solid black;
 }
 
+.custom-img {
+    max-width: 30%; 
+    height: auto;  
+    margin-top: 20px; 
+}
+
 /* Contact Sectie */
 #contact {
     background-color: rgba(248, 249, 250, 1); 
