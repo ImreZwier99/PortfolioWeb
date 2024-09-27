@@ -1,185 +1,156 @@
 /* Algemeen */
 html, body {
-    height: 100%; /* Zorg ervoor dat html en body 100% van de hoogte hebben */
-    margin: 0; /* Verwijder standaard marges */
-    font-family: Arial, sans-serif; /* Standaard lettertype */
+    height: 100%;
+    margin: 0; 
+    font-family: Arial, sans-serif; 
 }
 
 /* Achtergrond */
 body {
-    background-image: url('/img/Background.png'); /* Vervang dit door het pad naar je afbeelding */
-    background-size: cover; /* Zorg ervoor dat de afbeelding het hele scherm bedekt */
-    background-position: center; /* Centraal positioneren van de afbeelding */
-    background-repeat: no-repeat; /* Voorkom herhaling van de afbeelding */
-    background-attachment: fixed; /* Zorg ervoor dat de achtergrond gefixeerd is tijdens scrollen */
+    background-image: url('/Portfolio/img/Background.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
 
 /* Sectie Styling */
 section {
-    min-height: 200px; /* Zorg ervoor dat elke sectie minstens 1000 pixels hoog is */
+    min-height: 200px; 
     position: relative;
-    border-bottom: 2px solid black; /* Zwarte lijn onder elke sectie */
+    border-bottom: 2px solid black; 
 }
 
 /* Home Sectie */
 .background-image {
-    min-height: 65vh; /* Zorg ervoor dat de sectie minstens 100% van de viewport hoogte heeft */
-    display: flex; /* Flexbox gebruiken voor centrering */
-    align-items: center; /* Verticaal centreren */
-    justify-content: center; /* Horizontaal centreren */
-    text-align: center; /* Tekst in het midden van de box centreren */
-    color: white; /* Tekstkleur wit */
+    min-height: 65vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    color: white;
 }
 
 .text-box {
-    background-color: rgba(0, 0, 0, 0); /* Doorzichtige zwarte achtergrond voor de tekst */
-    padding: 20px; /* Padding voor de tekstbox */
-    border-radius: 10px; /* Ronde hoeken voor de tekstbox */
+    background-color: rgba(0, 0, 0, 0); 
+    padding: 20px; 
+    border-radius: 10px; 
 }
 
 /* Projecten Sectie */
 #projects {
-    background-color: rgba(255, 255, 255, 0.9); /* Licht doorschijnende witte achtergrond */
-    padding: 5rem 0; /* Padding voor de projectensectie */
-    border-top: 2px solid black; /* Zwarte lijn aan de bovenkant om secties te scheiden */
-    border-bottom: 2px solid black; /* Zwarte lijn aan de onderkant om secties te scheiden */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5rem 0;
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black; 
 }
 
 .card {
-    height: 100%; /* Zorg ervoor dat de kaarten de volledige hoogte gebruiken */
-    transition: transform 0.5s ease; /* Voor een vloeiende overgang bij hover en terug */
+    height: 100%; 
+    transition: transform 0.5s ease; 
 }
 
 .card:hover {
-    transform: scale(1.05); /* Vergroot de kaart wanneer er overheen wordt gehooverd */
+    transform: scale(1.05); 
 }
 
 .card-img-top {
-    object-fit: cover; /* Zorg ervoor dat de afbeelding niet wordt bijgesneden, maar geschaald */
-    height: 200px; /* Vaste hoogte voor de afbeelding in de kaarten */
+    object-fit: cover; 
+    height: 200px;
 }
 
 /* About Sectie */
 #about {
-    min-height: 400px; /* Minimaal 1000 pixels hoogte */
-    background-image: url('/img/Background.png'); /* Zelfde achtergrond als Home-sectie */
+    min-height: 400px; 
+    background-image: url('/Portfolio/img/Background.png'); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white; /* Witte tekstkleur */
+    color: white; 
     padding: 5rem 0;
     text-align: center;
-    border-bottom: 2px solid black; /* Zwarte lijn om de secties te scheiden */
+    border-bottom: 2px solid black;
 }
 
 /* Contact Sectie */
 #contact {
-    background-color: rgba(248, 249, 250, 1); /* Lichtgrijze niet-doorzichtige achtergrond */
+    background-color: rgba(248, 249, 250, 1); 
     padding: 5rem 0;
-    border-top: 2px solid black; /* Zwarte lijn om de secties te scheiden */
+    border-top: 2px solid black; 
 }
 
 /* Navbar Styling */
 .navbar {
-    background-color: rgba(0, 57, 143, 1) !important; /* Licht doorzichtige achtergrond voor de navbar */
+    background-color: rgba(0, 57, 143, 1) !important;
 }
 
 .navbar .nav-link {
-    color: #fff !important; /* Kleur van de nav-link naar wit veranderd met extra specificiteit */
+    color: #fff !important;
 }
 
 .navbar .nav-link:hover {
-    color: #007bff !important; /* Kleur bij hover */
+    color: #007bff !important; 
 }
 /* Styling for the contact icons */
 .contact-btn {
-    width: 100px; /* Breedte van de knop */
-    height: 100px; /* Hoogte van de knop */
+    width: 100px; 
+    height: 100px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent; /* Maak de knop doorzichtig */
-    border: none; /* Geen rand */
-    padding: 0; /* Geen padding */
+    background-color: transparent; 
+    border: none;
+    padding: 0; 
 }
 
 /* Styling for the logo */
 .icon-square {
-    width: 75px; /* Logo breedte */
-    height: 75px; /* Logo hoogte */
+    width: 75px; 
+    height: 75px;
 }
 
 .contact-icon {
-    width: 100%; /* Maak het logo 100% van de container breedte */
-    height: auto; /* Zorg ervoor dat het logo zijn verhouding behoudt */
+    width: 100%; 
+    height: auto;
 }
 
 /* Styling voor de email tekst */
 #contact .text-center a {
-    color: #007bff; /* Maak de email-link blauw */
+    color: #007bff; 
     text-decoration: none;
 }
 
 #contact .text-center a:hover {
-    text-decoration: underline; /* Onderstreep de link bij hover */
+    text-decoration: underline; 
 }
 
 /* Zorg ervoor dat de container niet te groot is */
 #contact {
-    padding: 3rem 0; /* Verminder de padding van boven en onder */
-    height: auto; /* Zorg ervoor dat de sectie automatisch past */
+    padding: 3rem 0; 
+    height: auto; 
 }
 
-/* Styling voor de email tekst */
-#contact .text-center a {
-    color: #007bff; /* Maak de email-link blauw */
-    text-decoration: none;
-}
-
-#contact .text-center a:hover {
-    text-decoration: underline; /* Onderstreep de link bij hover */
-}
-
-/* Styling voor de email tekst */
-#contact .text-center a {
-    color: #007bff; /* Maak de email-link blauw */
-    text-decoration: none;
-}
-
-#contact .text-center a:hover {
-    text-decoration: underline; /* Onderstreep de link bij hover */
-}
-
-/* Styling voor de email tekst */
-#contact .text-center a {
-    color: #007bff; /* Maak de email-link blauw */
-    text-decoration: none;
-}
-
-#contact .text-center a:hover {
-    text-decoration: underline; /* Onderstreep de link bij hover */
-}
 
 /* Koppen met blauwe lijn eronder */
 h1, h2, h3, h4, h5 {
-    position: relative; /* Relatieve positionering voor het plaatsen van de lijn */
-    margin-bottom: 20px; /* Ruimte onder de koppen */
+    position: relative;
+    margin-bottom: 20px;
 }
 
 h2::after {
-    content: ''; /* Geen tekst, alleen de lijn */
+    content: '';
     display: block;
-    width: 100%; /* De lijn is 100% breed */
-    height: 3px; /* Dikte van de lijn */
-    background-color: #00008B; /* Donkerblauwe kleur */
-    margin-top: 10px; /* Ruimte tussen de kop en de lijn */
+    width: 100%; 
+    height: 3px; 
+    background-color: #00008B; 
+    margin-top: 10px;
 }
 
 /* Responsieve instellingen */
 @media (max-width: 768px) {
     .navbar-collapse {
-        background-color: white; /* Achtergrondkleur voor mobiele navbar */
+        background-color: white; 
     }
 }
 
